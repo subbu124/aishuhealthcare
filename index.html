@@ -339,7 +339,10 @@
 						
 						<div class="hospital-images-column">
 							<!-- Add your hospital/clinic images here -->
-							<img src="testimonials/clinic_images/IMG_20251218_191211.jpg" alt="Aishu Healthcare Clinic" class="clinic-image">
+							<div class="collage-item large">
+								<img src="" alt="clinic" id="clinic-image-1">
+							</div>	
+							<!--img src="testimonials/clinic_images/IMG_20251218_191211.jpg" alt="Aishu Healthcare Clinic" class="clinic-image"-->
 							<!-- Add more images as needed -->
 						</div>
 						</div>
@@ -413,14 +416,20 @@
 				"testimonials/WhatsApp Image blur_nebulboy.jpeg",
 				"testimonials/WhatsApp Image nebula girl.jpeg",
 				"testimonials/WhatsApp Image saline.jpeg",
-			]
+			],
+			'clinic-image-1': [
+				"testimonials/clinic_images/IMG_20251218_191211.jpg",
+				"testimonials/clinic_images/IMG_20251218_191244.jpg",
+				"testimonials/clinic_images/IMG_20251218_191517.jpg",
+			]			
 		};
 
 		// Track current index for each group
 		const currentIndex = {
 			'gallery-image-1': 0,
 			'gallery-image-2': 0,
-			'gallery-image-3': 0
+			'gallery-image-3': 0,
+			'clinic-image-1': 0
 		};
 
 		// Function to update images sequentially
