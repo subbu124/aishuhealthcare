@@ -497,7 +497,7 @@ nav a:hover {
 
 .map {
 	align-items: center;
-	width: 50%;
+	width: 100%;
 	/* Add any other styling you need */
 	}
 .qr-code-container {
@@ -841,3 +841,28 @@ footer {
 		min-width: 100%;
 	}
 }		
+.map-hospital-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.map-column,
+.hospital-images-column {
+    flex: 1;
+    min-width: 0; /* Allows flex items to shrink below their content size */
+}
+
+.clinic-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Optional: Adjust button styling to fit better in the layout */
+.map-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
